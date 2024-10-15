@@ -1,0 +1,90 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #1b4f72;
+    border-bottom: 10px solid black;
+    position: fixed;
+    top: 0;
+    right: 0%;
+}
+
+ul {
+    text-align: right;
+    color: white;
+    margin-right: 40px;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:deeppink;
+}
+
+body {
+    background-color: #fef5e7;
+    width: 100%;
+    margin-left: 0;
+}
+
+main {
+    padding-top: 20px;
+}
+
+h1 {
+    padding-top: 60px;
+}
+h2 {
+    color: white;
+    padding: 10px;
+}
+#my-contact {
+    background-color: #1b4f72;
+    border-top: 5px solid black;
+    padding-bottom: 30px;
+}
+
+#entry-form {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    padding-top: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.my-label {
+    color: white;
+    margin: 5px;
+}
+.my-input {
+        width: 200px;
+        margin: 5px;
+        text-align: left;
+}
+
+.send-form {
+    height: 30px;
+    width: 80px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid darkblue;
+    padding: 10px;
+    height: 40px;
+}
